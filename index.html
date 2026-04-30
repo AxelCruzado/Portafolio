@@ -1,99 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portafolio | Cruzado Alegre Axel</title>
-    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 
-    <!-- box icons -->
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Axel Cruzado Alegre — Junior Developer & Systems Engineering student. Portfolio showcasing web and mobile development projects." />
+  <title>Axel Cruzado | Developer Portfolio</title>
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 
-    <!-- custom css -->
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
 
-  <body>
-    <!-- header design -->
+  <!-- box icons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
 
-    <header class="header">
-      <a href="#" class="logo">Portafolio</a>
-      <nav class="navbar">
-        <a href="#home" class="active">Home</a>
-        <a href="#about">About</a>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#portfolio">Certificates</a>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
-      </nav>
-      <label for="theme-toggle" class="switch-label">
-        <!-- Icono para el modo claro (sol) -->
-        <a id="theme-light-icon">
-          <img src="images/Icon/sun.png" alt="" />
-        </a>
-        <!-- Switch -->
-        <input id="theme-toggle" type="checkbox" class="sr-only" />
-        <div class="switch-container">
-          <div class="switch-background"></div>
-          <div class="switch-indicator" id="switch-indicator"></div>
-        </div>
+  <!-- custom css -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
 
-        <!-- Icono para el modo oscuro (luna) -->
-        <a id="theme-dark-icon">
-          <img style="padding-left: 8px" src="images/Icon/moon.png" alt="" />
-        </a>
-      </label>
-    </header>
+<body>
+  <!-- header design -->
 
-    <!-- home section design -->
-    <section class="home" id="home">
-      <div class="home-content">
-        <h3>Hello, I'm</h3>
-        <h1>Axel Cruzado</h1>
-        <h3>a <span class="multiple-text"></span></h3>
-        <p>
-          I'm a passionate Web Developer specializing in creating dynamic and
-          responsive websites with HTML, CSS, and JavaScript.
-        </p>
-
-        <div class="social-media">
-          <a href="https://www.facebook.com/AxelCruzadoAlegre" target="_blank"
-            ><i class="bx bxl-facebook"></i
-          ></a>
-          <a href="https://github.com/AxelCruzado" target="_blank"
-            ><i class="bx bxl-github"></i
-          ></a>
-          <a href="https://www.instagram.com/axelcruzado/" target="_blank"
-            ><i class="bx bxl-instagram"></i
-          ></a>
-          <a
-            href="https://www.linkedin.com/in/axel-arturo-cruzado-alegre-9340881ba/"
-            target="_blank"
-            ><i class="bx bxl-linkedin"></i
-          ></a>
-        </div>
-        <a href="files/CV_AXEL_CRUZADO.pdf" class="btn" download>Download CV</a>
+  <header class="header">
+    <a href="#" class="logo">Portafolio<span style="color: var(--main-color);">.</span></a>
+    <i class='bx bx-menu' id='menu-icon'></i>
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#portfolio">Certificates</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <label for="theme-toggle" class="switch-label">
+      <a id="theme-light-icon">
+        <i class='bx bx-sun' style="font-size:20px;color:var(--text-secondary)"></i>
+      </a>
+      <input id="theme-toggle" type="checkbox" class="sr-only" />
+      <div class="switch-container">
+        <div class="switch-background"></div>
+        <div class="switch-indicator" id="switch-indicator"></div>
       </div>
-      <div class="home-img">
-        <img src="images/perfil-homeoficial.png" alt="" class="imagen" />
-      </div>
-    </section>
+      <a id="theme-dark-icon">
+        <i class='bx bx-moon' style="font-size:20px;color:var(--text-secondary);padding-left:4px"></i>
+      </a>
+    </label>
+  </header>
 
-    <!-- about section design -->
+  <!-- home section design -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, I'm</h3>
+      <h1>Axel Cruzado</h1>
+      <h3>a <span class="multiple-text"></span></h3>
+      <p>
+        I'm a passionate Web Developer specializing in creating dynamic and
+        responsive websites with HTML, CSS, and JavaScript.
+      </p>
 
-    <section class="about" id="about">
-      <div class="about-img">
-        <img src="images/perfil-aboutoficial.png" alt="" />
+      <div class="social-media">
+        <a href="https://www.facebook.com/AxelCruzadoAlegre" target="_blank"><i class="bx bxl-facebook"></i></a>
+        <a href="https://github.com/AxelCruzado" target="_blank"><i class="bx bxl-github"></i></a>
+        <a href="https://www.instagram.com/axelcruzado/" target="_blank"><i class="bx bxl-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/axel-arturo-cruzado-alegre-9340881ba/" target="_blank"><i
+            class="bx bxl-linkedin"></i></a>
       </div>
-      <div class="about-content">
-        <h2 class="heading">About <span>Me</span></h2>
-        <h3>Junior Developer & University Student</h3>
-        <p>
+      <a href="files/CV_AXEL_CRUZADO.pdf" class="btn" download>Download CV</a>
+    </div>
+    <div class="home-img">
+      <img src="images/perfil-homeoficial.png" alt="" class="imagen" />
+    </div>
+  </section>
+
+  <!-- about section design -->
+
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="images/perfil-aboutoficial.png" alt="" />
+    </div>
+    <div class="about-content">
+      <h2 class="heading">About <span>Me</span></h2>
+      <h3>Junior Developer & University Student</h3>
+      <p>
         Actualmente soy estudiante universitario en la etapa final de mi
         carrera en Ingeniería de Sistemas e Informática de la Universidad
         Nacional del Santa, persiguiendo activamente mi pasión por la
@@ -101,857 +96,643 @@
         la creación de aplicaciones web dinámicas, responsivas y también en el
         desarrollo de aplicaciones móviles, trabajando en el diseño y desarrollo de
         soluciones utilizando un conjunto diverso de tecnologías modernas.
-        </p>
-        <p>
-          Con una base sólida en desarrollo tanto frontend como backend, así como en
-          entornos móviles, estoy bien versado en la creación de interfaces intuitivas,
-          robustas y eficientes, lo que me permite aplicar mis habilidades de
-          programación y lógica de aplicación en diferentes plataformas. Tengo muchas
-          ganas de seguir creciendo en el campo tecnológico, contribuyendo a proyectos
-          innovadores y manteniéndome a la vanguardia de los avances tecnológicos.
-        </p>
+      </p>
+      <p>
+        Con una base sólida en desarrollo tanto frontend como backend, así como en
+        entornos móviles, estoy bien versado en la creación de interfaces intuitivas,
+        robustas y eficientes, lo que me permite aplicar mis habilidades de
+        programación y lógica de aplicación en diferentes plataformas. Tengo muchas
+        ganas de seguir creciendo en el campo tecnológico, contribuyendo a proyectos
+        innovadores y manteniéndome a la vanguardia de los avances tecnológicos.
+      </p>
 
-        <h1>My Skills</h1>
-        <div class="skills">
-          <!-- Lenguajes -->
-          <div class="tech-item">
-            <img src="images/Icon/html-5.png" alt="HTML" />
-            <span>HTML</span>
-          </div>
-          <div class="tech-item">
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png"
-              alt="CSS"
-            />
-            <span>CSS</span>
-          </div>
-          <div class="tech-item">
-            <img src="images/Icon/Javascript.png" alt="JavaScript" />
-            <span>JavaScript</span>
-          </div>
-          <div class="tech-item">
-            <img
-              src="https://cdn.iconscout.com/icon/free/png-256/free-csharp-logo-icon-download-in-svg-png-gif-file-formats--programming-langugae-language-pack-logos-icons-1175242.png"
-              alt="C#"
-            />
-            <span>C#</span>
-          </div>
-          <div class="tech-item">
-            <img
-              class="angular"
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Kotlin_Icon.png/512px-Kotlin_Icon.png?20210501145042"
-              style="width: 30px"
-              alt="Kotlin"
-            />
-            <span>Kotlin</span>
-          </div>
-
-          <!-- Frameworks / Librerías -->
-           <div class="tech-item">
-            <img
-              class="Firebase"
-              src="images/Icon/Firebase.svg"
-              style="width: 40px"
-              alt="Firebase"
-            />
-            <span>Firebase</span>
-          </div>
-          <div class="tech-item">
-            <img
-              class="angular"
-              src="images/Icon/Angular.png"
-              style="width: 40px"
-              alt="Angular"
-            />
-            <span>Angular</span>
-          </div>
-          <div class="tech-item">
-            <img
-              class="angular"
-              src="images/Icon/Flutter.png"
-              style="width: 30px"
-              alt="Flutter"
-            />
-            <span>Flutter</span>
-          </div>
-          <div class="tech-item">
-            <img
-              src="https://blog.nicopaez.com/wp-content/uploads/2020/06/netcore.png"
-              alt=".NET Core"
-            />
-            <span>.NET Core</span>
-          </div>
-          <div class="tech-item">
-            <img
-              class="angular"
-              src="images/Icon/Android.png"
-              style="width: 25px"
-              alt="Android"
-            />
-            <span>Android</span>
-          </div>
-
-          <!-- Bases de datos -->
-          <div class="tech-item">
-            <img
-              class="angular"
-              src="images/Icon/MySQL.png"
-              style="width: 40px"
-              alt="MySQL"
-            />
-            <span>MySQL</span>
-          </div>
-          <div class="tech-item">
-            <img
-              src="images/Icon/SQL.png"
-              alt="SQL Server"
-              style="width: 50px"
-            />
-            <span>SQL Server</span>
-          </div>
-
-          <!-- Cloud -->
-          <div class="tech-item">
-            <img
-              class="angular"
-              src="images/Icon/AWS.png"
-              style="width: 30px"
-              alt="AWS"
-            />
-            <span>AWS</span>
-          </div>
-          <div class="tech-item">
-            <img
-              src="https://www.c-sharpcorner.com/UploadFile/BlogImages/01232023170209PM/Azure%20Icon.png"
-              alt="Azure"
-            />
-            <span>Azure</span>
-          </div>
-
-          <!-- Metodologías -->
-           <div class="tech-item">
-            <img
-              src="images/Icon/Git.png"
-              alt="Git"
-            />
-            <span>Git</span>
-          </div>
-          <div class="tech-item">
-            <img
-              src="images/Icon/GitHub.png"
-              alt="GitHub"
-            />
-            <span>GitHub</span>
-          </div>
-          <div class="tech-item">
-            <img
-              src="https://elementi.me/wp-content/uploads/2020/01/Scrum-Master-Professional-certificate.png"
-              alt="Scrum Master"
-            />
-            <span>Scrum Master</span>
-          </div>
+      <h1>My Skills</h1>
+      <div class="skills">
+        <!-- Lenguajes -->
+        <div class="tech-item">
+          <img src="images/Icon/html-5.png" alt="HTML" />
+          <span>HTML</span>
         </div>
-      </div>
-    </section>
-
-    <!-- experience section design -->
-    <section class="experience" id="experience">
-      <h2 class="heading">My <span>Experience</span></h2>
-      <div class="experience-container">
-        <!-- Experiencia 1 -->
-        <div class="experience-box">
-          <div class="experience-content">
-            <div class="company-info">
-              <img
-                class="empresa"
-                src="images/Empresas/logoinvadion.jpg"
-                alt="Logo de Invadion"
-              />
-              <h3>INVADION S.A.C.</h3>
-            </div>
-            <div>
-              <p><strong>Trabajo:</strong> Desarrollador Junior</p>
-              <p>
-                <strong>Funciones:</strong> Participación en el desarrollo y
-                mantenimiento de aplicaciones web utilizando tecnologías como
-                React, C#, Bootstrap, SQL Server y Angular. Colaboración en la
-                creación de interfaces de usuario intuitivas y en la
-                optimización de bases de datos para mejorar el rendimiento y la
-                escalabilidad de las soluciones implementadas.
-              </p>
-              <p><strong>Tiempo:</strong> Noviembre 2023 - Agosto 2024</p>
-            </div>
-          </div>
-          <div class="experience-image">
-            <img
-              src="images/Experience/Carta de Evidencia de Trabajo - Axel Cruzado.jpg"
-              alt="Certificado de Invadion"
-            />
-          </div>
+        <div class="tech-item">
+          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" alt="CSS" />
+          <span>CSS</span>
+        </div>
+        <div class="tech-item">
+          <img src="images/Icon/Javascript.png" alt="JavaScript" />
+          <span>JavaScript</span>
+        </div>
+        <div class="tech-item">
+          <img
+            src="https://cdn.iconscout.com/icon/free/png-256/free-csharp-logo-icon-download-in-svg-png-gif-file-formats--programming-langugae-language-pack-logos-icons-1175242.png"
+            alt="C#" />
+          <span>C#</span>
+        </div>
+        <div class="tech-item">
+          <img class="angular"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Kotlin_Icon.png/512px-Kotlin_Icon.png?20210501145042"
+            style="width: 30px" alt="Kotlin" />
+          <span>Kotlin</span>
         </div>
 
-        <!-- Experiencia 2 -->
-        <div class="experience-box">
-          <div class="experience-content">
-            <div class="company-info">
-              <img
-                class="empresa"
-                src="images/Empresas/jsoftlogo.png"
-                alt="Logo de Invadion"
-              />
-              <h3>JSOFT Soluciones Optimas E.I.R.L.</h3>
-            </div>
-            <div>
-              <p><strong>Trabajo:</strong> Asesor Comercial</p>
-              <p>
-                <strong>Funciones:</strong> Asesorar a clientes en la
-                implementación de soluciones tecnológicas personalizadas,
-                analizar necesidades de sistemas y software para optimizar
-                procesos empresariales, y colaborar en la integración de
-                soluciones digitales en plataformas existentes.
-              </p>
-              <p><strong>Tiempo:</strong> Agosto 2021 - Marzo 2022</p>
-            </div>
-          </div>
+        <!-- Frameworks / Librerías -->
+        <div class="tech-item">
+          <img class="Firebase" src="images/Icon/Firebase.svg" style="width: 40px" alt="Firebase" />
+          <span>Firebase</span>
+        </div>
+        <div class="tech-item">
+          <img class="angular" src="images/Icon/Angular.png" style="width: 40px" alt="Angular" />
+          <span>Angular</span>
+        </div>
+        <div class="tech-item">
+          <img class="angular" src="images/Icon/Flutter.png" style="width: 30px" alt="Flutter" />
+          <span>Flutter</span>
+        </div>
+        <div class="tech-item">
+          <img src="https://blog.nicopaez.com/wp-content/uploads/2020/06/netcore.png" alt=".NET Core" />
+          <span>.NET Core</span>
+        </div>
+        <div class="tech-item">
+          <img class="angular" src="images/Icon/Android.png" style="width: 25px" alt="Android" />
+          <span>Android</span>
+        </div>
 
-          <div class="experience-image">
-            <img
-              src="images/Experience/ConstanciaDeTrabajo_Axel.jpg"
-              alt="Certificado de Jsoft"
-            />
-            <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
-          </div>
+        <!-- Bases de datos -->
+        <div class="tech-item">
+          <img class="angular" src="images/Icon/MySQL.png" style="width: 40px" alt="MySQL" />
+          <span>MySQL</span>
+        </div>
+        <div class="tech-item">
+          <img src="images/Icon/SQL.png" alt="SQL Server" style="width: 50px" />
+          <span>SQL Server</span>
+        </div>
+
+        <!-- Cloud -->
+        <div class="tech-item">
+          <img class="angular" src="images/Icon/AWS.png" style="width: 30px" alt="AWS" />
+          <span>AWS</span>
+        </div>
+        <div class="tech-item">
+          <img src="https://www.c-sharpcorner.com/UploadFile/BlogImages/01232023170209PM/Azure%20Icon.png"
+            alt="Azure" />
+          <span>Azure</span>
+        </div>
+
+        <!-- Metodologías -->
+        <div class="tech-item">
+          <img src="images/Icon/Git.png" alt="Git" />
+          <span>Git</span>
+        </div>
+        <div class="tech-item">
+          <img src="images/Icon/GitHub.png" alt="GitHub" />
+          <span>GitHub</span>
+        </div>
+        <div class="tech-item">
+          <img src="https://elementi.me/wp-content/uploads/2020/01/Scrum-Master-Professional-certificate.png"
+            alt="Scrum Master" />
+          <span>Scrum Master</span>
         </div>
       </div>
-      <div id="imageModal" class="modal">
-        <span class="close">&times;</span>
-        <img class="modal-content" id="modalImage" />
-      </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Projects section design -->
-    <section class="projects" id="projects">
-      <h2 class="heading">My <span>Projects</span></h2>
-      <div class="projects-container">
-        <!-- Project 1  -->
-        <div class="project-box">
-          <div class="project-content">
-            <h3>MueblAR</h3>
+  <!-- experience section design -->
+  <section class="experience" id="experience">
+    <h2 class="heading">My <span>Experience</span></h2>
+    <div class="experience-container">
+      <!-- Experiencia 1 -->
+      <div class="experience-box">
+        <div class="experience-content">
+          <div class="company-info">
+            <img class="empresa" src="images/Empresas/logoinvadion.jpg" alt="Logo de Invadion" />
+            <h3>INVADION S.A.C.</h3>
+          </div>
+          <div>
+            <p><strong>Trabajo:</strong> Desarrollador Junior</p>
             <p>
-              Una aplicación web para la gestión de muebles, permitiendo a los
-              usuarios visualizar, agregar y modificar productos de manera
-              intuitiva. Utiliza la realidad aumentada para mejorar la experiencia
-              del usuario.
+              <strong>Funciones:</strong> Participación en el desarrollo y
+              mantenimiento de aplicaciones web utilizando tecnologías como
+              React, C#, Bootstrap, SQL Server y Angular. Colaboración en la
+              creación de interfaces de usuario intuitivas y en la
+              optimización de bases de datos para mejorar el rendimiento y la
+              escalabilidad de las soluciones implementadas.
             </p>
-            <h4>Technologies Usadas:</h4>
-            <div class="tech-stack">
-              <div class="tech-item">
-                <img
-                  src="images/Icon/Android.png"
-                  style="width: 20px"
-                  alt="Android"
-                />
-                <span>Android</span>
-              </div>
-              <div class="tech-item">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Kotlin_Icon.png/512px-Kotlin_Icon.png?20210501145042"
-                style="width: 30px;" alt="Kotlin" />
-                <span>Kotlin</span>
-              </div>
-              <div class="tech-item">
-                <img
-                  src="images/Icon/Firebase.svg"
-                  style="width: 40px"
-                  alt="Firebase"
-                />
-                <span>Firebase</span>
-              </div>
-              
+            <p><strong>Tiempo:</strong> Noviembre 2023 - Agosto 2024</p>
+          </div>
+        </div>
+        <div class="experience-image">
+          <img src="images/Experience/Carta de Evidencia de Trabajo - Axel Cruzado.jpg" alt="Certificado de Invadion" />
+        </div>
+      </div>
+
+      <!-- Experiencia 2 -->
+      <div class="experience-box">
+        <div class="experience-content">
+          <div class="company-info">
+            <img class="empresa" src="images/Empresas/jsoftlogo.png" alt="Logo de Invadion" />
+            <h3>JSOFT Soluciones Optimas E.I.R.L.</h3>
+          </div>
+          <div>
+            <p><strong>Trabajo:</strong> Asesor Comercial</p>
+            <p>
+              <strong>Funciones:</strong> Asesorar a clientes en la
+              implementación de soluciones tecnológicas personalizadas,
+              analizar necesidades de sistemas y software para optimizar
+              procesos empresariales, y colaborar en la integración de
+              soluciones digitales en plataformas existentes.
+            </p>
+            <p><strong>Tiempo:</strong> Agosto 2021 - Marzo 2022</p>
+          </div>
+        </div>
+
+        <div class="experience-image">
+          <img src="images/Experience/ConstanciaDeTrabajo_Axel.jpg" alt="Certificado de Jsoft" />
+          <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+    </div>
+    <div id="imageModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="modalImage" />
+    </div>
+  </section>
+
+  <!-- Projects section design -->
+  <section class="projects" id="projects">
+    <h2 class="heading">My <span>Projects</span></h2>
+    <div class="projects-container">
+      <!-- Project 1  -->
+      <div class="project-box">
+        <div class="project-content">
+          <h3>MueblAR</h3>
+          <p>
+            Una aplicación web para la gestión de muebles, permitiendo a los
+            usuarios visualizar, agregar y modificar productos de manera
+            intuitiva. Utiliza la realidad aumentada para mejorar la experiencia
+            del usuario.
+          </p>
+          <h4>Technologies Usadas:</h4>
+          <div class="tech-stack">
+            <div class="tech-item">
+              <img src="images/Icon/Android.png" style="width: 20px" alt="Android" />
+              <span>Android</span>
             </div>
-            <p>Languages: Kotlin</p>
-            <div class="project-links">
-              <!--<a href="https://example.com/demo" target="_blank" class="btn"
+            <div class="tech-item">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Kotlin_Icon.png/512px-Kotlin_Icon.png?20210501145042"
+                style="width: 30px;" alt="Kotlin" />
+              <span>Kotlin</span>
+            </div>
+            <div class="tech-item">
+              <img src="images/Icon/Firebase.svg" style="width: 40px" alt="Firebase" />
+              <span>Firebase</span>
+            </div>
+
+          </div>
+          <p>Languages: Kotlin</p>
+          <div class="project-links">
+            <!--<a href="https://example.com/demo" target="_blank" class="btn"
                 >Live Demo</a
               >-->
-              <a
-                href="https://github.com/AxelCruzado/AM_MueblAR"
-                target="_blank"
-                class="btn"
-                >GitHub</a
-              >
-            </div>
-          </div>
-          <div class="project-image">
-            <div class="carousel">
-              <div class="carousel-inner">
-                <!-- Multiple images for Project 1 -->
-                <div class="carousel-item active">
-                  <img
-                    src="images/Projects/MueblAR/Loading.jpg"
-                    alt="MueblAR Loading"
-                  />
-                  <a onclick="openImage(this)"
-                    ><i class="bx bx-link-external"></i
-                  ></a>
-                </div>
-                <div class="carousel-item">
-                  <img
-                    src="images/Projects/MueblAR/Informacion.jpg"
-                    alt="MueblAR Screenshot 2"
-                  />
-                  <a onclick="openImage(this)"
-                    ><i class="bx bx-link-external"></i
-                  ></a>
-                </div>
-                <div class="carousel-item">
-                  <img
-                    src="images/Projects/MueblAR/Mapa.jpg"
-                    alt="MueblAR Screenshot 3"
-                  />
-                  <a onclick="openImage(this)"
-                    ><i class="bx bx-link-external"></i
-                  ></a>
-                </div>
-              </div>
-              <button
-                class="carousel-control prev"
-                onclick="changeSlide(this, -1)"
-              >
-                &#10094;
-              </button>
-              <button
-                class="carousel-control next"
-                onclick="changeSlide(this, 1)"
-              >
-                &#10095;
-              </button>
-            </div>
+            <a href="https://github.com/AxelCruzado/AM_MueblAR" target="_blank" class="btn">GitHub</a>
           </div>
         </div>
-
-        <!-- Project 2 -->
-        <div class="project-box">
-          <div class="project-content">
-            <h3>Etnia Karaoke</h3>
-            <p>
-              Una aplicacion movil que permite la gestion de una karaoke, incluyendo
-              la seleccion de canciones, la gestion de listas de reproduccion y
-              la interaccion con los usuarios.
-            </p>
-            <h4>Technologies Used:</h4>
-            <div class="tech-stack">
-              <div class="tech-item">
-                <img
-                  src="images/Icon/Flutter.png"
-                  style="width: 30px"
-                  alt="Flutter"
-                />
-                <span>Flutter</span>
+        <div class="project-image">
+          <div class="carousel">
+            <div class="carousel-inner">
+              <!-- Multiple images for Project 1 -->
+              <div class="carousel-item active">
+                <img src="images/Projects/MueblAR/Loading.jpg" alt="MueblAR Loading" />
+                <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
               </div>
-              <div class="tech-item">
-                <img
-                  src="https://blog.nicopaez.com/wp-content/uploads/2020/06/netcore.png"
-                  style="width: 30px"
-                  alt=".NET"
-                />
-                <span>.NET</span>
+              <div class="carousel-item">
+                <img src="images/Projects/MueblAR/Informacion.jpg" alt="MueblAR Screenshot 2" />
+                <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
               </div>
-              <div class="tech-item">
-                <img
-                  src="images/Icon/SQL.png"
-                  style="width: 50px"
-                  alt="SQL Server"
-                />
-                <span>SQL Server</span>
+              <div class="carousel-item">
+                <img src="images/Projects/MueblAR/Mapa.jpg" alt="MueblAR Screenshot 3" />
+                <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
               </div>
             </div>
-            <p>Languages: Flutter, .NET, SQL</p>
-            <div class="project-links">
-              <a href="https://example.com/demo" target="_blank" class="btn"
-                >Live Demo</a
-              >
-              <a                
-                href="https://github.com/AxelCruzado/project2"
-                target="_blank"
-                class="btn"
-                >GitHub</a
-              >
-              </div>
-            </div>
-          
-          <div class="project-image">
-            <div class="carousel">
-              <div class="carousel-inner">
-                <!-- Multiple images for Project 2 -->
-                <div class="carousel-item active">
-                  <img
-                    src="images/Projects/Etnia_Karaoke/EtniaKaraokeApp.jpg"
-                    alt="Etnia Karaoke Loading"
-                  />
-                  <a onclick="openImage(this)"
-                    ><i class="bx bx-link-external"></i
-                  ></a>
-                </div>
-                <div class="carousel-item">
-                  <img
-                    src="images/Projects/MueblAR/Informacion.jpg"
-                    alt="MueblAR Screenshot 2"
-                  />
-                  <a onclick="openImage(this)"
-                    ><i class="bx bx-link-external"></i
-                  ></a>
-                </div>
-                <div class="carousel-item">
-                  <img
-                    src="images/Projects/MueblAR/Mapa.jpg"
-                    alt="MueblAR Screenshot 3"
-                  />
-                  <a onclick="openImage(this)"
-                    ><i class="bx bx-link-external"></i
-                  ></a>
-                </div>
-              </div>
-              <button
-                class="carousel-control prev"
-                onclick="changeSlide(this, -1)"
-              >
-                &#10094;
-              </button>
-              <button
-                class="carousel-control next"
-                onclick="changeSlide(this, 1)"
-              >
-                &#10095;
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Project 3 -->
-        <div class="project-box">
-          <div class="project-content">
-            <h3>FullTabas Ecommerce</h3>
-            <p>
-              Tienda Web para la gestión de ventas de zapatillas.
-            </p>
-            <h4>Technologies Used:</h4>
-            <div class="tech-stack">
-              <div class="tech-item">
-                <img
-                  src="https://blog.nicopaez.com/wp-content/uploads/2020/06/netcore.png"
-                  alt=".NET Core"
-                />
-                <span>.NET Core</span>
-              </div>
-              <div class="tech-item">
-                <img
-                  src="images/Icon/Angular.png"
-                  alt="Angular"
-                />
-                <span>Angular</span>
-              </div>
-              <div class="tech-item">
-                <img
-                  src="https://www.c-sharpcorner.com/UploadFile/BlogImages/01232023170209PM/Azure%20Icon.png"
-                  alt="Azure"
-                />
-                <span>Azure</span>
-              </div>
-            </div>
-            <p>Languages: C#</p>
-            <div class="project-links">
-              <a href="https://example.com/demo" target="_blank" class="btn"
-                >Live Demo</a
-              >
-              <a
-                href="https://github.com/AxelCruzado/project3"
-                target="_blank"
-                class="btn"
-                >GitHub</a
-              >
-            </div>
-          </div>
-          <div class="project-image">
-            <div class="carousel">
-              <div class="carousel-inner">
-                <!-- Multiple images for Project 3 -->
-                <div class="carousel-item active">
-                  <img
-                    src="images/Projects/FullTabas_Web/FullTabas.jpg"
-                    alt="Project 3 Screenshot 1"
-                  />
-                  <a onclick="openImage(this)"
-                    ><i class="bx bx-link-external"></i
-                  ></a>
-                </div>
-                <div class="carousel-item">
-                  <img
-                    src="images/projects/project3-screenshot2.jpg"
-                    alt="Project 3 Screenshot 2"
-                  />
-                  <a onclick="openImage(this)"
-                    ><i class="bx bx-link-external"></i
-                  ></a>
-                </div>
-                <div class="carousel-item">
-                  <img
-                    src="images/projects/project3-screenshot3.jpg"
-                    alt="Project 3 Screenshot 3"
-                  />
-                  <a onclick="openImage(this)"
-                    ><i class="bx bx-link-external"></i
-                  ></a>
-                </div>
-              </div>
-              <button
-                class="carousel-control prev"
-                onclick="changeSlide(this, -1)"
-              >
-                &#10094;
-              </button>
-              <button
-                class="carousel-control next"
-                onclick="changeSlide(this, 1)"
-              >
-                &#10095;
-              </button>
-            </div>
+            <button class="carousel-control prev" onclick="changeSlide(this, -1)">
+              &#10094;
+            </button>
+            <button class="carousel-control next" onclick="changeSlide(this, 1)">
+              &#10095;
+            </button>
           </div>
         </div>
       </div>
-    </section>
 
-    <!-- portfolio section design -->
-    <section class="portfolio" id="portfolio">
-      <h2 class="heading">Certifi<span>cates</span></h2>
-
-      <div class="portfolio-container">
-        <div class="portfolio-box">
-          <img
-            src="images/Certificates/Certificado JavaScript - Fundación Telefónica Movistar.jpg"
-            alt=""
-          />
-          <div class="portfolio-layer">
-            <h4>Certificado de JavaScript</h4>
-            <p>
-              Desarrollé habilidades en JavaScript para crear interfaces web
-              dinámicas y funcionales.
-            </p>
-            <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
+      <!-- Project 2 -->
+      <div class="project-box">
+        <div class="project-content">
+          <h3>Etnia Karaoke</h3>
+          <p>
+            Una aplicacion movil que permite la gestion de una karaoke, incluyendo
+            la seleccion de canciones, la gestion de listas de reproduccion y
+            la interaccion con los usuarios.
+          </p>
+          <h4>Technologies Used:</h4>
+          <div class="tech-stack">
+            <div class="tech-item">
+              <img src="images/Icon/Flutter.png" style="width: 30px" alt="Flutter" />
+              <span>Flutter</span>
+            </div>
+            <div class="tech-item">
+              <img src="https://blog.nicopaez.com/wp-content/uploads/2020/06/netcore.png" style="width: 30px"
+                alt=".NET" />
+              <span>.NET</span>
+            </div>
+            <div class="tech-item">
+              <img src="images/Icon/SQL.png" style="width: 50px" alt="SQL Server" />
+              <span>SQL Server</span>
+            </div>
           </div>
-        </div>
-        <div class="portfolio-box">
-          <img
-            src="images/Certificates/Certificado Introduction_to_Cybersecurity.jpg"
-            alt=""
-          />
-          <div class="portfolio-layer">
-            <h4>Certificado de Introducción a la Ciberseguridad</h4>
-            <p>
-              Aprendí conceptos fundamentales de ciberseguridad para proteger la
-              información y la red de una organización.
-            </p>
-            <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
-          </div>
-        </div>
-        <div class="portfolio-box">
-          <img src="images/Certificates/Certificado SCRUM MASTER.jpg" alt="" />
-          <div class="portfolio-layer">
-            <h4>Certificado SCRUM MASTER</h4>
-            <p>
-              Formado en metodologías ágiles para liderar proyectos con
-              eficiencia.
-            </p>
-            <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
-          </div>
-        </div>
-        <div class="portfolio-box">
-          <img
-            src="images/Certificates/ScrumFundamentalsCertified-AxelArturoCruzadoAlegre.jpg"
-            alt=""
-          />
-          <div class="portfolio-layer">
-            <h4>Certificado SCRUM</h4>
-            <p>
-              Formado en metodologías ágiles para liderar proyectos con
-              eficiencia.
-            </p>
-            <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
-          </div>
-        </div>
-        <div class="portfolio-box">
-          <img
-            src="images/Certificates/Certificado Word Intermedio - Campus Virtual Romero.jpg"
-            alt=""
-          />
-          <div class="portfolio-layer">
-            <h4>Word Intermedio</h4>
-            <p>
-              Domino las herramientas de Word para la creación de documentos
-              profesionales.
-            </p>
-            <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
-          </div>
-        </div>
-        <div class="portfolio-box">
-          <img
-            src="images/Certificates/Certificado Excel Intermedio - Campus Virtual Romero.jpg"
-            alt=""
-          />
-          <div class="portfolio-layer">
-            <h4>Certificado Excel Intermedio</h4>
-            <p>
-              Competente en análisis de datos y creación de reportes en Excel.
-            </p>
-            <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
-          </div>
-        </div>
-        <div class="portfolio-box">
-          <img src="images/Certificates/Certificado de Ingles.jpg" alt="" />
-          <div class="portfolio-layer">
-            <h4>Certificado de Ingles</h4>
-            <p>
-              Constancia de haber culminado correctamente el nivel Básico con
-              312 horas por 1 año
-            </p>
-            <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
-          </div>
-        </div>
-        <div class="portfolio-box">
-          <img
-            src="images/Certificates/Certificado Ethical Hacker.jpg"
-            alt=""
-          />
-          <div class="portfolio-layer">
-            <h4>Certificado Ethical Hacker</h4>
-            <p>
-              Certificación en técnicas de hacking ético y seguridad
-              informática.
-            </p>
-            <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
-          </div>
-        </div>
-        <div class="portfolio-box">
-          <img src="images/Certificates/CONSTANCIA POWER BL.jpg" alt="" />
-          <div class="portfolio-layer">
-            <h4>Constancia de Participación en el Curso de Power BI</h4>
-            <p>
-              Constancia de haber participado en el curso de Power BI para el
-              análisis de datos.
-            </p>
-            <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
-          </div>
-        </div>
-        <div class="portfolio-box">
-          <img src="images/Certificates/Constancia ENLA 2024.jpg" alt="" />
-          <div class="portfolio-layer">
-            <h4>Constancia de Participación ENLA 2024</h4>
-            <p>
-              Constancia de haber participado en la ENLA 2024 como Aplicador
-              para los examenes a los estudiantes de nivel primario de 4to
-              grado.
-            </p>
-            <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
-          </div>
-        </div>
-        <div class="portfolio-box">
-          <img src="images/Certificates/Certificado de Innovación.jpg" alt="" />
-          <div class="portfolio-layer">
-            <h4>Certificado de Innovación</h4>
-            <p>
-              Capacitado en técnicas innovadoras para impulsar el desarrollo
-              empresarial.
-            </p>
-            <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
-          </div>
-        </div>
-        <div class="portfolio-box">
-          <img
-            src="images/Certificates/Certificado de Participación a Trabajo Laboral.jpg"
-            alt=""
-          />
-          <div class="portfolio-layer">
-            <h4>Certificado de Participación a Trabajo Laboral</h4>
-            <p>
-              Participación en actividades de formación y capacitación para el
-              trabajo.
-            </p>
-            <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
-          </div>
-        </div>
-        <div class="portfolio-box">
-          <img
-            src="images/Certificates/Participacion a la Conferencia de Curia.jpg"
-            alt=""
-          />
-          <div class="portfolio-layer">
-            <h4>Certificado de Participación a la Conferencia de Curia</h4>
-            <p>
-              Participación en la Conferencia de Curia para el desarrollo de
-              habilidades profesionales.
-            </p>
-            <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
-          </div>
-        </div>
-        <div class="portfolio-box">
-          <img src="images/Certificates/Diseño Web.jpg" alt="" />
-          <div class="portfolio-layer">
-            <h4>Certificado de Diseño Web</h4>
-            <p>
-              Diseño interfaces web intuitivas y atractivas para mejorar la
-              experiencia del usuario.
-            </p>
-            <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
-          </div>
-        </div>
-        <div class="portfolio-box">
-          <img src="images/Certificates/Certificado RPA.jpg" alt="" />
-          <div class="portfolio-layer">
-            <h4>Certificado de RPA</h4>
-            <p>
-              Introducción al uso de la herramienta de Robot Framework para el
-              control de procesos automatizados.
-            </p>
-            <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
+          <p>Languages: Flutter, .NET, SQL</p>
+          <div class="project-links">
+            <a href="https://example.com/demo" target="_blank" class="btn">Live Demo</a>
+            <a href="https://github.com/AxelCruzado/project2" target="_blank" class="btn">GitHub</a>
           </div>
         </div>
 
-        <div class="portfolio-box">
-          <img
-            src="images/Certificates/CONSTANCIA_DE_PRACTICAS_INVADION-SAC.jpg"
-            alt=""
-          />
-          <div class="portfolio-layer">
-            <h4>Constancia de Practicas Preprofesionales</h4>
-            <p>
-              Experiencia práctica en el desarrollo de soluciones tecnológicas
-              en un entorno profesional.
-            </p>
-            <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
-          </div>
-        </div>
-        <div class="portfolio-box">
-          <img src="images/Certificates/CONSTANCIA DEL RNP.jpg" alt="" />
-          <div class="portfolio-layer">
-            <h4>Constancia de RNP</h4>
-            <p>
-              Certificación oficial en el Registro Nacional de Proveedores del
-              Estado.
-            </p>
-            <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
+        <div class="project-image">
+          <div class="carousel">
+            <div class="carousel-inner">
+              <!-- Multiple images for Project 2 -->
+              <div class="carousel-item active">
+                <img src="images/Projects/Etnia_Karaoke/EtniaKaraokeApp.jpg" alt="Etnia Karaoke Loading" />
+                <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
+              </div>
+              <div class="carousel-item">
+                <img src="images/Projects/MueblAR/Informacion.jpg" alt="MueblAR Screenshot 2" />
+                <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
+              </div>
+              <div class="carousel-item">
+                <img src="images/Projects/MueblAR/Mapa.jpg" alt="MueblAR Screenshot 3" />
+                <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
+              </div>
+            </div>
+            <button class="carousel-control prev" onclick="changeSlide(this, -1)">
+              &#10094;
+            </button>
+            <button class="carousel-control next" onclick="changeSlide(this, 1)">
+              &#10095;
+            </button>
           </div>
         </div>
       </div>
-      <div id="imageModal" class="modal">
-        <span class="close">&times;</span>
-        <img class="modal-content" id="modalImage" />
-      </div>
-    </section>
 
-    <!-- services section design -->
-    <section class="services" id="services">
-      <h2 class="heading">My <span>Services</span></h2>
-
-      <div class="services-container">
-        <div class="services-box">
-          <i class="bx bx-code-alt"></i>
-          <h3>Web Development</h3>
-          <p>I create web pages using HTML, CSS, and Javascript.</p>
-          <a href="#" class="btn">Read More</a>
-        </div>
-
-        <div class="services-box">
-          <i class="bx bx-shield-alt-2"></i>
-          <h3>Cybersecurity</h3>
+      <!-- Project 3 -->
+      <div class="project-box">
+        <div class="project-content">
+          <h3>FullTabas Ecommerce</h3>
           <p>
-            I implement security strategies to protect systems and data from
-            cyber threats.
+            Tienda Web para la gestión de ventas de zapatillas.
           </p>
-          <a href="#" class="btn">Read More</a>
+          <h4>Technologies Used:</h4>
+          <div class="tech-stack">
+            <div class="tech-item">
+              <img src="https://blog.nicopaez.com/wp-content/uploads/2020/06/netcore.png" alt=".NET Core" />
+              <span>.NET Core</span>
+            </div>
+            <div class="tech-item">
+              <img src="images/Icon/Angular.png" alt="Angular" />
+              <span>Angular</span>
+            </div>
+            <div class="tech-item">
+              <img src="https://www.c-sharpcorner.com/UploadFile/BlogImages/01232023170209PM/Azure%20Icon.png"
+                alt="Azure" />
+              <span>Azure</span>
+            </div>
+          </div>
+          <p>Languages: C#</p>
+          <div class="project-links">
+            <a href="https://example.com/demo" target="_blank" class="btn">Live Demo</a>
+            <a href="https://github.com/AxelCruzado/project3" target="_blank" class="btn">GitHub</a>
+          </div>
         </div>
-
-        <div class="services-box">
-          <i class="bx bx-network-chart"></i>
-          <h3>Network Administration</h3>
-          <p>
-            I manage and optimize computer networks to ensure seamless
-            communication and connectivity.
-          </p>
-          <a href="#" class="btn">Read More</a>
-        </div>
-
-        <div class="services-box">
-          <i class="bx bx-terminal"></i>
-          <h3>Software Development</h3>
-          <p>
-            I design and develop software solutions using various programming
-            languages and frameworks.
-          </p>
-          <a href="#" class="btn">Read More</a>
-        </div>
-
-        <div class="services-box">
-          <i class="bx bx-server"></i>
-          <h3>IT Consulting</h3>
-          <p>
-            I provide expert advice on optimizing technology infrastructure and
-            solutions for businesses.
-          </p>
-          <a href="#" class="btn">Read More</a>
+        <div class="project-image">
+          <div class="carousel">
+            <div class="carousel-inner">
+              <!-- Multiple images for Project 3 -->
+              <div class="carousel-item active">
+                <img src="images/Projects/FullTabas_Web/FullTabas.jpg" alt="Project 3 Screenshot 1" />
+                <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
+              </div>
+              <div class="carousel-item">
+                <img src="images/projects/project3-screenshot2.jpg" alt="Project 3 Screenshot 2" />
+                <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
+              </div>
+              <div class="carousel-item">
+                <img src="images/projects/project3-screenshot3.jpg" alt="Project 3 Screenshot 3" />
+                <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
+              </div>
+            </div>
+            <button class="carousel-control prev" onclick="changeSlide(this, -1)">
+              &#10094;
+            </button>
+            <button class="carousel-control next" onclick="changeSlide(this, 1)">
+              &#10095;
+            </button>
+          </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- contact section design -->
-    <section class="contact" id="contact">
-      <h2 class="heading">Contact <span>Me!</span></h2>
+  <!-- portfolio section design -->
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">Certifi<span>cates</span></h2>
 
-      <form id="contact-form">
-        <div class="input-box">
-          <input type="text" id="name" placeholder="Nombre Completo" required />
-          <input type="email" id="email" placeholder="Correo" required />
+    <div class="portfolio-container">
+      <div class="portfolio-box">
+        <img src="images/Certificates/Certificado JavaScript - Fundación Telefónica Movistar.jpg" alt="" />
+        <div class="portfolio-layer">
+          <h4>Certificado de JavaScript</h4>
+          <p>
+            Desarrollé habilidades en JavaScript para crear interfaces web
+            dinámicas y funcionales.
+          </p>
+          <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
         </div>
-        <div class="input-box">
-          <input type="number" id="mobile" placeholder="Celular" />
-          <input
-            type="text"
-            id="subject"
-            placeholder="Asunto"
-            value=""
-            required
-          />
+      </div>
+      <div class="portfolio-box">
+        <img src="images/Certificates/Certificado Introduction_to_Cybersecurity.jpg" alt="" />
+        <div class="portfolio-layer">
+          <h4>Certificado de Introducción a la Ciberseguridad</h4>
+          <p>
+            Aprendí conceptos fundamentales de ciberseguridad para proteger la
+            información y la red de una organización.
+          </p>
+          <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
         </div>
-        <textarea
-          id="message"
-          cols="30"
-          rows="10"
-          placeholder="Tu Mensaje"
-          required
-        ></textarea>
-        <input type="submit" value="Enviar" class="btn" />
-      </form>
-    </section>
+      </div>
+      <div class="portfolio-box">
+        <img src="images/Certificates/Certificado SCRUM MASTER.jpg" alt="" />
+        <div class="portfolio-layer">
+          <h4>Certificado SCRUM MASTER</h4>
+          <p>
+            Formado en metodologías ágiles para liderar proyectos con
+            eficiencia.
+          </p>
+          <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="images/Certificates/ScrumFundamentalsCertified-AxelArturoCruzadoAlegre.jpg" alt="" />
+        <div class="portfolio-layer">
+          <h4>Certificado SCRUM</h4>
+          <p>
+            Formado en metodologías ágiles para liderar proyectos con
+            eficiencia.
+          </p>
+          <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="images/Certificates/Certificado Word Intermedio - Campus Virtual Romero.jpg" alt="" />
+        <div class="portfolio-layer">
+          <h4>Word Intermedio</h4>
+          <p>
+            Domino las herramientas de Word para la creación de documentos
+            profesionales.
+          </p>
+          <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="images/Certificates/Certificado Excel Intermedio - Campus Virtual Romero.jpg" alt="" />
+        <div class="portfolio-layer">
+          <h4>Certificado Excel Intermedio</h4>
+          <p>
+            Competente en análisis de datos y creación de reportes en Excel.
+          </p>
+          <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="images/Certificates/Certificado de Ingles.jpg" alt="" />
+        <div class="portfolio-layer">
+          <h4>Certificado de Ingles</h4>
+          <p>
+            Constancia de haber culminado correctamente el nivel Básico con
+            312 horas por 1 año
+          </p>
+          <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="images/Certificates/Certificado Ethical Hacker.jpg" alt="" />
+        <div class="portfolio-layer">
+          <h4>Certificado Ethical Hacker</h4>
+          <p>
+            Certificación en técnicas de hacking ético y seguridad
+            informática.
+          </p>
+          <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="images/Certificates/CONSTANCIA POWER BL.jpg" alt="" />
+        <div class="portfolio-layer">
+          <h4>Constancia de Participación en el Curso de Power BI</h4>
+          <p>
+            Constancia de haber participado en el curso de Power BI para el
+            análisis de datos.
+          </p>
+          <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="images/Certificates/Constancia ENLA 2024.jpg" alt="" />
+        <div class="portfolio-layer">
+          <h4>Constancia de Participación ENLA 2024</h4>
+          <p>
+            Constancia de haber participado en la ENLA 2024 como Aplicador
+            para los examenes a los estudiantes de nivel primario de 4to
+            grado.
+          </p>
+          <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="images/Certificates/Certificado de Innovación.jpg" alt="" />
+        <div class="portfolio-layer">
+          <h4>Certificado de Innovación</h4>
+          <p>
+            Capacitado en técnicas innovadoras para impulsar el desarrollo
+            empresarial.
+          </p>
+          <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="images/Certificates/Certificado de Participación a Trabajo Laboral.jpg" alt="" />
+        <div class="portfolio-layer">
+          <h4>Certificado de Participación a Trabajo Laboral</h4>
+          <p>
+            Participación en actividades de formación y capacitación para el
+            trabajo.
+          </p>
+          <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="images/Certificates/Participacion a la Conferencia de Curia.jpg" alt="" />
+        <div class="portfolio-layer">
+          <h4>Certificado de Participación a la Conferencia de Curia</h4>
+          <p>
+            Participación en la Conferencia de Curia para el desarrollo de
+            habilidades profesionales.
+          </p>
+          <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="images/Certificates/Diseño Web.jpg" alt="" />
+        <div class="portfolio-layer">
+          <h4>Certificado de Diseño Web</h4>
+          <p>
+            Diseño interfaces web intuitivas y atractivas para mejorar la
+            experiencia del usuario.
+          </p>
+          <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="images/Certificates/Certificado RPA.jpg" alt="" />
+        <div class="portfolio-layer">
+          <h4>Certificado de RPA</h4>
+          <p>
+            Introducción al uso de la herramienta de Robot Framework para el
+            control de procesos automatizados.
+          </p>
+          <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
 
-    <!-- footer design -->
+      <div class="portfolio-box">
+        <img src="images/Certificates/CONSTANCIA_DE_PRACTICAS_INVADION-SAC.jpg" alt="" />
+        <div class="portfolio-layer">
+          <h4>Constancia de Practicas Preprofesionales</h4>
+          <p>
+            Experiencia práctica en el desarrollo de soluciones tecnológicas
+            en un entorno profesional.
+          </p>
+          <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="images/Certificates/CONSTANCIA DEL RNP.jpg" alt="" />
+        <div class="portfolio-layer">
+          <h4>Constancia de RNP</h4>
+          <p>
+            Certificación oficial en el Registro Nacional de Proveedores del
+            Estado.
+          </p>
+          <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+    </div>
+    <div id="imageModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="modalImage" />
+    </div>
+  </section>
 
-    <footer class="footer">
-      <div class="footer-text">
+  <!-- services section design -->
+  <section class="services" id="services">
+    <h2 class="heading">My <span>Services</span></h2>
+
+    <div class="services-container">
+      <div class="services-box">
+        <i class="bx bx-code-alt"></i>
+        <h3>Web Development</h3>
+        <p>I create web pages using HTML, CSS, and Javascript.</p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+
+      <div class="services-box">
+        <i class="bx bx-shield-alt-2"></i>
+        <h3>Cybersecurity</h3>
         <p>
-          Copyright &copy; 2024 by Axel Cruzado Alegre. All Rights Reserved.
+          I implement security strategies to protect systems and data from
+          cyber threats.
         </p>
+        <a href="#" class="btn">Read More</a>
       </div>
-      <div class="footer-iconTop">
-        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+
+      <div class="services-box">
+        <i class="bx bx-network-chart"></i>
+        <h3>Network Administration</h3>
+        <p>
+          I manage and optimize computer networks to ensure seamless
+          communication and connectivity.
+        </p>
+        <a href="#" class="btn">Read More</a>
       </div>
-    </footer>
 
-    <!-- scroll reveal -->
-    <script src="https://unpkg.com/scrollreveal"></script>
+      <div class="services-box">
+        <i class="bx bx-terminal"></i>
+        <h3>Software Development</h3>
+        <p>
+          I design and develop software solutions using various programming
+          languages and frameworks.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
 
-    <!-- typed js -->
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+      <div class="services-box">
+        <i class="bx bx-server"></i>
+        <h3>IT Consulting</h3>
+        <p>
+          I provide expert advice on optimizing technology infrastructure and
+          solutions for businesses.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </div>
+  </section>
 
-    <!-- custom js -->
-    <script src="js/script.js"></script>
-  </body>
+  <!-- contact section design -->
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+
+    <form id="contact-form">
+      <div class="input-box">
+        <input type="text" id="name" placeholder="Nombre Completo" required />
+        <input type="email" id="email" placeholder="Correo" required />
+      </div>
+      <div class="input-box">
+        <input type="number" id="mobile" placeholder="Celular" />
+        <input type="text" id="subject" placeholder="Asunto" value="" required />
+      </div>
+      <textarea id="message" cols="30" rows="10" placeholder="Tu Mensaje" required></textarea>
+      <input type="submit" value="Enviar" class="btn" />
+    </form>
+  </section>
+
+  <!-- footer design -->
+
+  <footer class="footer">
+    <div class="footer-text">
+      <p>
+        Copyright &copy; 2026 by Axel Cruzado Alegre. All Rights Reserved.
+      </p>
+    </div>
+    <div class="footer-iconTop">
+      <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+    </div>
+  </footer>
+
+  <!-- scroll reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- typed js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <!-- custom js -->
+  <script src="js/script.js"></script>
+</body>
+
 </html>
