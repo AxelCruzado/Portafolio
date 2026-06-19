@@ -90,9 +90,16 @@ var modal = document.getElementById("imageModal");
 var modalImg = document.getElementById("modalImage");
 
 function openImage(element) {
-  var imgSrc = element.parentElement.querySelector('img').src;
-  modal.style.display = "block";
-  modalImg.src = imgSrc;
+  // Try to find image: first in parent, then in closest container
+  var img = element.parentElement.querySelector('img');
+  if (!img) {
+    var container = element.closest('.portfolio-box, .experience-image, .carousel-item, .project-image');
+    if (container) img = container.querySelector('img');
+  }
+  if (img) {
+    modal.style.display = "block";
+    modalImg.src = img.src;
+  }
 }
 
 var closeModal = document.getElementsByClassName("close")[0];

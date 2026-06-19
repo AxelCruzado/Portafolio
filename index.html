@@ -33,6 +33,7 @@
     <nav class="navbar">
       <a href="#home" class="active">Home</a>
       <a href="#about">About</a>
+      <a href="#education">Education</a>
       <a href="#experience">Experience</a>
       <a href="#projects">Projects</a>
       <a href="#portfolio">Certificates</a>
@@ -89,8 +90,7 @@
       <h2 class="heading">About <span>Me</span></h2>
       <h3>Junior Developer & University Student</h3>
       <p>
-        Actualmente soy estudiante universitario en la etapa final de mi
-        carrera en Ingeniería de Sistemas e Informática de la Universidad
+        Bachiller en Ingeniería de Sistemas e Informática de la Universidad
         Nacional del Santa, persiguiendo activamente mi pasión por la
         tecnología. Como desarrollador junior, tengo experiencia práctica en
         la creación de aplicaciones web dinámicas, responsivas y también en el
@@ -195,11 +195,102 @@
     </div>
   </section>
 
+  <!-- education section design -->
+  <section class="education" id="education">
+    <h2 class="heading">Edu<span>cation</span></h2>
+    <div class="education-container">
+      <div class="education-card">
+        <div class="education-icon-col">
+          <div class="education-icon">
+            <i class='bx bxs-graduation'></i>
+          </div>
+          <div class="education-line"></div>
+        </div>
+        <div class="education-content">
+          <span class="education-badge">Grado Académico</span>
+          <h3>Bachiller en Ingeniería de Sistemas e Informática</h3>
+          <h4><i class='bx bxs-school'></i> Universidad Nacional del Santa</h4>
+          <div class="education-meta">
+            <span><i class='bx bx-calendar'></i> 2017 — 2023</span>
+            <span><i class='bx bx-map'></i> Chimbote, Áncash</span>
+          </div>
+          <p>
+            Formación integral en ingeniería de software, bases de datos, redes de computadoras,
+            seguridad informática, inteligencia artificial y gestión de proyectos tecnológicos.
+            Desarrollo de competencias en análisis, diseño e implementación de soluciones tecnológicas.
+          </p>
+          <div class="education-tags">
+            <span class="edu-tag">Ingeniería de Software</span>
+            <span class="edu-tag">Bases de Datos</span>
+            <span class="edu-tag">Redes</span>
+            <span class="edu-tag">Gestión de Proyectos</span>
+          </div>
+        </div>
+        <div class="education-image">
+          <img src="images/Certificates/Bachiller Axel Cruzado.jpg" alt="Bachiller en Ingeniería de Sistemas" />
+          <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- experience section design -->
   <section class="experience" id="experience">
     <h2 class="heading">My <span>Experience</span></h2>
     <div class="experience-container">
       <!-- Experiencia 1 -->
+      <div class="experience-box">
+        <div class="experience-content">
+          <div class="company-info">
+            <img class="empresa" src="images/Empresas/LOGO STP.png" alt="Logo de STP Ingeniería" />
+            <h3>SOCIEDAD TECNOLÓGICA DEL PERÚ S.A.C.</h3>
+          </div>
+          <div>
+            <p><strong>Trabajo:</strong>Ingeniero de Planeamiento</p>
+            <p>
+              <strong>Funciones:</strong> Desarrollo e implementación de sistemas web para el control de asistencia por
+              proyectos, cálculo automatizado de pagos e inventarios en operaciones mineras. Gestión y validación de
+              información del personal en la Unidad Minera Antamina, automatización de procesos administrativos y
+              operativos, elaboración de cronogramas de trabajo y soporte tecnológico a las áreas de Operaciones y
+              Recursos Humanos.
+            </p>
+            <p><strong>Tiempo:</strong> Febrero 2026 - Actualidad</p>
+          </div>
+        </div>
+        <div class="experience-image">
+          <img src="images/Experience/Certificado de trabajo STP Axel Cruzado.jpg"
+            alt="Certificado de STP Ingeniería" />
+          <a onclick="openImage(this)">
+            <i class="bx bx-link-external"></i>
+          </a>
+        </div>
+      </div>
+      <!-- Experiencia 2 -->
+      <div class="experience-box">
+        <div class="experience-content">
+          <div class="company-info">
+            <img class="empresa" src="images/Empresas/Logo Red Asistencial Ancash.jpg" alt="Logo de EsSalud" />
+            <h3>RED ASISTENCIAL ÁNCASH - ESSALUD</h3>
+          </div>
+          <div>
+            <p><strong>Trabajo:</strong> Analista Desarrollador Backend</p>
+            <p>
+              <strong>Funciones:</strong> Análisis, diseño y desarrollo de sistemas institucionales utilizando Java.
+              Implementación de APIs REST seguras y escalables, optimización de bases de datos SQL Server y PostgreSQL,
+              y aplicación de mecanismos de seguridad para la protección de información crítica del sector salud.
+            </p>
+            <p><strong>Tiempo:</strong> Octubre 2025 - Diciembre 2025</p>
+          </div>
+        </div>
+        <div class="experience-image">
+          <img src="images/Experience/Certificado de trabajo ESSALUD Axel Cruzado.jpg" alt="Certificado de EsSalud" />
+          <a onclick="openImage(this)">
+            <i class="bx bx-link-external"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Experiencia 3 -->
       <div class="experience-box">
         <div class="experience-content">
           <div class="company-info">
@@ -209,22 +300,20 @@
           <div>
             <p><strong>Trabajo:</strong> Desarrollador Junior</p>
             <p>
-              <strong>Funciones:</strong> Participación en el desarrollo y
-              mantenimiento de aplicaciones web utilizando tecnologías como
-              React, C#, Bootstrap, SQL Server y Angular. Colaboración en la
-              creación de interfaces de usuario intuitivas y en la
-              optimización de bases de datos para mejorar el rendimiento y la
-              escalabilidad de las soluciones implementadas.
-            </p>
+              <strong>Funciones:</strong> Desarrollo de aplicaciones web Full Stack utilizando Angular, React, .NET Core
+              y SQL Server. Implementación de APIs REST, optimización de bases de datos y gestión integral de proyectos
+              de software mediante metodologías ágiles. Participación en el desarrollo completo del sistema TR4INER y
+              aplicación de prácticas de control de versiones y despliegue continuo.
             <p><strong>Tiempo:</strong> Noviembre 2023 - Agosto 2024</p>
           </div>
         </div>
         <div class="experience-image">
           <img src="images/Experience/Carta de Evidencia de Trabajo - Axel Cruzado.jpg" alt="Certificado de Invadion" />
+          <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
         </div>
       </div>
 
-      <!-- Experiencia 2 -->
+      <!-- Experiencia 4 -->
       <div class="experience-box">
         <div class="experience-content">
           <div class="company-info">
@@ -234,11 +323,10 @@
           <div>
             <p><strong>Trabajo:</strong> Asesor Comercial</p>
             <p>
-              <strong>Funciones:</strong> Asesorar a clientes en la
-              implementación de soluciones tecnológicas personalizadas,
-              analizar necesidades de sistemas y software para optimizar
-              procesos empresariales, y colaborar en la integración de
-              soluciones digitales en plataformas existentes.
+              <strong>Funciones:</strong> Levantamiento y análisis de requerimientos, diseño de soluciones tecnológicas
+              para clientes del sector MYPE y desarrollo de aplicaciones web y móviles utilizando SQL Server. Brindé
+              soporte técnico y capacitación a usuarios finales para garantizar la correcta implementación y uso de los
+              sistemas desarrollados.
             </p>
             <p><strong>Tiempo:</strong> Agosto 2021 - Marzo 2022</p>
           </div>
@@ -249,11 +337,116 @@
           <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
         </div>
       </div>
+
+      <!-- Experiencia 5 -->
+
+      <div class="experience-box">
+        <div class="experience-content">
+          <div class="company-info">
+            <img class="empresa" src="images/Empresas/logobesco.jpg" alt="Logo de Besco-Besalco" />
+            <h3>BESCO - BESALCO</h3>
+          </div>
+          <div>
+            <p><strong>Trabajo:</strong> Analista de Procesos Administrativos</p>
+            <p>
+              <strong>Funciones:</strong> Análisis y optimización de procesos administrativos para proyectos de
+              construcción. Gestión documental mediante SharePoint y herramientas colaborativas, seguimiento
+              presupuestario y control de costos. Automatización de procesos utilizando Microsoft Excel avanzado, Power
+              Query y macros para mejorar la eficiencia operativa.
+            </p>
+            <p><strong>Tiempo:</strong> Junio 2022 - Octubre 2023</p>
+          </div>
+        </div>
+        <div class="experience-image">
+          <img src="images/Experience/certificado-besco.jpg" alt="Certificado de Besco-Besalco" />
+          <a onclick="openImage(this)">
+            <i class="bx bx-link-external"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Experiencia 6 -->
+
+      <div class="experience-box">
+        <div class="experience-content">
+          <div class="company-info">
+            <img class="empresa" src="images/Empresas/logochimboterointernauta.jpg"
+              alt="Logo de Chimbotero-Internauta" />
+            <h3>CHIMBOTERO-INTERNAUTA</h3>
+          </div>
+          <div>
+            <p><strong>Trabajo:</strong> Analista Desarrollador de Software</p>
+            <p>
+              <strong>Funciones:</strong> Análisis, diseño y desarrollo de una plataforma digital para la promoción del
+              turismo regional. Gestión integral del proyecto desde su concepción hasta su lanzamiento, incluyendo el
+              desarrollo de aplicaciones web y móviles multiplataforma, así como la implementación de funcionalidades
+              basadas en sistemas de información geográfica.
+            </p>
+            <p><strong>Tiempo:</strong> Noviembre 2020 - Julio 2021</p>
+          </div>
+        </div>
+        <div class="experience-image">
+          <img src="images/Experience/certificado-chimbotero.jpg" alt="Certificado de Chimbotero-Internauta" />
+          <a onclick="openImage(this)">
+            <i class="bx bx-link-external"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Experiencia 7 -->
+
+      <div class="experience-box">
+        <div class="experience-content">
+          <div class="company-info">
+            <img class="empresa" src="images/Empresas/logohayduck.jpg" alt="Logo de Hayduck" />
+            <h3>HAYDUCK</h3>
+          </div>
+          <div>
+            <p><strong>Trabajo:</strong> Analista de Inventario y Control Logístico</p>
+            <p>
+              <strong>Funciones:</strong> Análisis y control de inventarios mediante sistemas ERP, conciliación de
+              información contable y logística, elaboración de reportes gerenciales con Excel avanzado y dashboards, así
+              como auditoría de procesos para la identificación y reducción de diferencias de inventario.
+            </p>
+            <p><strong>Tiempo:</strong> Noviembre 2019 - Octubre 2020</p>
+          </div>
+        </div>
+        <div class="experience-image">
+          <img src="images/Experience/certificado-hayduck.jpg" alt="Certificado de Hayduck" />
+          <a onclick="openImage(this)">
+            <i class="bx bx-link-external"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Experiencia 8 -->
+
+      <div class="experience-box">
+        <div class="experience-content">
+          <div class="company-info">
+            <img class="empresa" src="images/Empresas/logoapolo.jpg" alt="Logo de Apolo S.A.C." />
+            <h3>APOLO S.A.C.</h3>
+          </div>
+          <div>
+            <p><strong>Trabajo:</strong> Coordinador Logístico y Analista de Inventario</p>
+            <p>
+              <strong>Funciones:</strong> Coordinación de operaciones logísticas, control y análisis de inventarios,
+              gestión de bases de datos en Excel avanzado e implementación de indicadores de desempeño (KPIs).
+              Participación en el control de costos y análisis de variaciones presupuestarias para optimizar la gestión
+              de recursos.
+            </p>
+            <p><strong>Tiempo:</strong> Junio 2019 - Octubre 2019</p>
+          </div>
+        </div>
+        <div class="experience-image">
+          <img src="images/Experience/certificado-apolo.jpg" alt="Certificado de Apolo S.A.C." />
+          <a onclick="openImage(this)">
+            <i class="bx bx-link-external"></i>
+          </a>
+        </div>
+      </div>
     </div>
-    <div id="imageModal" class="modal">
-      <span class="close">&times;</span>
-      <img class="modal-content" id="modalImage" />
-    </div>
+
   </section>
 
   <!-- Projects section design -->
@@ -262,40 +455,58 @@
     <div class="projects-container">
       <!-- Project 1  -->
       <div class="project-box">
+
         <div class="project-content">
           <h3>MueblAR</h3>
           <p>
-            Una aplicación web para la gestión de muebles, permitiendo a los
-            usuarios visualizar, agregar y modificar productos de manera
-            intuitiva. Utiliza la realidad aumentada para mejorar la experiencia
-            del usuario.
+            Aplicación móvil Android desarrollada para la visualización interactiva de
+            muebles en 3D mediante realidad aumentada. El proyecto fue diseñado bajo
+            una arquitectura escalable basada en MVVM y Clean Architecture,
+            permitiendo una gestión eficiente de productos, autenticación de usuarios
+            y almacenamiento seguro de información en la nube.
           </p>
-          <h4>Technologies Usadas:</h4>
+
+          <h4>Tecnologías Utilizadas:</h4>
+
           <div class="tech-stack">
             <div class="tech-item">
               <img src="images/Icon/Android.png" style="width: 20px" alt="Android" />
               <span>Android</span>
             </div>
+
             <div class="tech-item">
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Kotlin_Icon.png/512px-Kotlin_Icon.png?20210501145042"
                 style="width: 30px;" alt="Kotlin" />
               <span>Kotlin</span>
             </div>
+
             <div class="tech-item">
               <img src="images/Icon/Firebase.svg" style="width: 40px" alt="Firebase" />
               <span>Firebase</span>
             </div>
 
+            <div class="tech-item">
+              <img src="images/Icon/MVVM.png" style="width: 25px" alt="MVVM" />
+              <span>MVVM</span>
+            </div>
+
+            <div class="tech-item">
+              <img src="images/Icon/CleanArchitecture.png" style="width: 25px" alt="Clean Architecture" />
+              <span>Clean Architecture</span>
+            </div>
           </div>
-          <p>Languages: Kotlin</p>
+
+          <p><strong>Lenguaje:</strong> Kotlin</p>
+
           <div class="project-links">
-            <!--<a href="https://example.com/demo" target="_blank" class="btn"
-                >Live Demo</a
-              >-->
-            <a href="https://github.com/AxelCruzado/AM_MueblAR" target="_blank" class="btn">GitHub</a>
+            <a href="https://github.com/AxelCruzado/AM_MueblAR" target="_blank" class="btn">
+              GitHub
+            </a>
           </div>
         </div>
+
+
         <div class="project-image">
           <div class="carousel">
             <div class="carousel-inner">
@@ -327,32 +538,23 @@
       <div class="project-box">
         <div class="project-content">
           <h3>Etnia Karaoke</h3>
-          <p>
-            Una aplicacion movil que permite la gestion de una karaoke, incluyendo
-            la seleccion de canciones, la gestion de listas de reproduccion y
-            la interaccion con los usuarios.
-          </p>
-          <h4>Technologies Used:</h4>
+          <p> Aplicación móvil desarrollada para la gestión integral de un karaoke, permitiendo la administración de
+            canciones, listas de reproducción, solicitudes de usuarios y control de operaciones del establecimiento. La
+            solución integra una aplicación móvil con servicios backend y una base de datos centralizada para garantizar
+            disponibilidad y rendimiento. </p>
+          <h4>Tecnologías Utilizadas:</h4>
           <div class="tech-stack">
-            <div class="tech-item">
-              <img src="images/Icon/Flutter.png" style="width: 30px" alt="Flutter" />
+            <div class="tech-item"> <img src="images/Icon/Flutter.png" style="width: 30px" alt="Flutter" />
               <span>Flutter</span>
             </div>
-            <div class="tech-item">
-              <img src="https://blog.nicopaez.com/wp-content/uploads/2020/06/netcore.png" style="width: 30px"
-                alt=".NET" />
-              <span>.NET</span>
-            </div>
-            <div class="tech-item">
-              <img src="images/Icon/SQL.png" style="width: 50px" alt="SQL Server" />
-              <span>SQL Server</span>
-            </div>
+            <div class="tech-item"> <img src="https://blog.nicopaez.com/wp-content/uploads/2020/06/netcore.png"
+                style="width: 30px" alt=".NET" /> <span>.NET</span> </div>
+            <div class="tech-item"> <img src="images/Icon/SQL.png" style="width: 50px" alt="SQL Server" /> <span>SQL
+                Server</span> </div>
           </div>
-          <p>Languages: Flutter, .NET, SQL</p>
-          <div class="project-links">
-            <a href="https://example.com/demo" target="_blank" class="btn">Live Demo</a>
-            <a href="https://github.com/AxelCruzado/project2" target="_blank" class="btn">GitHub</a>
-          </div>
+          <p><strong>Lenguajes:</strong> Dart, C#, SQL</p>
+          <div class="project-links"> <a href="https://example.com/demo" target="_blank" class="btn">Live Demo</a> <a
+              href="https://github.com/AxelCruzado/project2" target="_blank" class="btn">GitHub</a> </div>
         </div>
 
         <div class="project-image">
@@ -445,145 +647,25 @@
     <h2 class="heading">Certifi<span>cates</span></h2>
 
     <div class="portfolio-container">
+      <!-- Anexo 4 -->
+      <div class="portfolio-box">
+        <img src="images/Certificates/Certificado Anexo 4 - Axel Cruzado.jpg" alt="" />
+        <div class="portfolio-layer">
+          <h4>Induccion Personal Nuevo Antamina</h4>
+          <p>
+            Certificado de inducción para el personal nuevo en Antamina por Tecsup.
+          </p>
+          <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+      <!-- Desarrollo de Software -->
       <div class="portfolio-box">
         <img src="images/Certificates/Certificado JavaScript - Fundación Telefónica Movistar.jpg" alt="" />
         <div class="portfolio-layer">
-          <h4>Certificado de JavaScript</h4>
+          <h4>JavaScript Essentials</h4>
           <p>
             Desarrollé habilidades en JavaScript para crear interfaces web
             dinámicas y funcionales.
-          </p>
-          <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
-        </div>
-      </div>
-      <div class="portfolio-box">
-        <img src="images/Certificates/Certificado Introduction_to_Cybersecurity.jpg" alt="" />
-        <div class="portfolio-layer">
-          <h4>Certificado de Introducción a la Ciberseguridad</h4>
-          <p>
-            Aprendí conceptos fundamentales de ciberseguridad para proteger la
-            información y la red de una organización.
-          </p>
-          <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
-        </div>
-      </div>
-      <div class="portfolio-box">
-        <img src="images/Certificates/Certificado SCRUM MASTER.jpg" alt="" />
-        <div class="portfolio-layer">
-          <h4>Certificado SCRUM MASTER</h4>
-          <p>
-            Formado en metodologías ágiles para liderar proyectos con
-            eficiencia.
-          </p>
-          <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
-        </div>
-      </div>
-      <div class="portfolio-box">
-        <img src="images/Certificates/ScrumFundamentalsCertified-AxelArturoCruzadoAlegre.jpg" alt="" />
-        <div class="portfolio-layer">
-          <h4>Certificado SCRUM</h4>
-          <p>
-            Formado en metodologías ágiles para liderar proyectos con
-            eficiencia.
-          </p>
-          <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
-        </div>
-      </div>
-      <div class="portfolio-box">
-        <img src="images/Certificates/Certificado Word Intermedio - Campus Virtual Romero.jpg" alt="" />
-        <div class="portfolio-layer">
-          <h4>Word Intermedio</h4>
-          <p>
-            Domino las herramientas de Word para la creación de documentos
-            profesionales.
-          </p>
-          <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
-        </div>
-      </div>
-      <div class="portfolio-box">
-        <img src="images/Certificates/Certificado Excel Intermedio - Campus Virtual Romero.jpg" alt="" />
-        <div class="portfolio-layer">
-          <h4>Certificado Excel Intermedio</h4>
-          <p>
-            Competente en análisis de datos y creación de reportes en Excel.
-          </p>
-          <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
-        </div>
-      </div>
-      <div class="portfolio-box">
-        <img src="images/Certificates/Certificado de Ingles.jpg" alt="" />
-        <div class="portfolio-layer">
-          <h4>Certificado de Ingles</h4>
-          <p>
-            Constancia de haber culminado correctamente el nivel Básico con
-            312 horas por 1 año
-          </p>
-          <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
-        </div>
-      </div>
-      <div class="portfolio-box">
-        <img src="images/Certificates/Certificado Ethical Hacker.jpg" alt="" />
-        <div class="portfolio-layer">
-          <h4>Certificado Ethical Hacker</h4>
-          <p>
-            Certificación en técnicas de hacking ético y seguridad
-            informática.
-          </p>
-          <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
-        </div>
-      </div>
-      <div class="portfolio-box">
-        <img src="images/Certificates/CONSTANCIA POWER BL.jpg" alt="" />
-        <div class="portfolio-layer">
-          <h4>Constancia de Participación en el Curso de Power BI</h4>
-          <p>
-            Constancia de haber participado en el curso de Power BI para el
-            análisis de datos.
-          </p>
-          <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
-        </div>
-      </div>
-      <div class="portfolio-box">
-        <img src="images/Certificates/Constancia ENLA 2024.jpg" alt="" />
-        <div class="portfolio-layer">
-          <h4>Constancia de Participación ENLA 2024</h4>
-          <p>
-            Constancia de haber participado en la ENLA 2024 como Aplicador
-            para los examenes a los estudiantes de nivel primario de 4to
-            grado.
-          </p>
-          <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
-        </div>
-      </div>
-      <div class="portfolio-box">
-        <img src="images/Certificates/Certificado de Innovación.jpg" alt="" />
-        <div class="portfolio-layer">
-          <h4>Certificado de Innovación</h4>
-          <p>
-            Capacitado en técnicas innovadoras para impulsar el desarrollo
-            empresarial.
-          </p>
-          <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
-        </div>
-      </div>
-      <div class="portfolio-box">
-        <img src="images/Certificates/Certificado de Participación a Trabajo Laboral.jpg" alt="" />
-        <div class="portfolio-layer">
-          <h4>Certificado de Participación a Trabajo Laboral</h4>
-          <p>
-            Participación en actividades de formación y capacitación para el
-            trabajo.
-          </p>
-          <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
-        </div>
-      </div>
-      <div class="portfolio-box">
-        <img src="images/Certificates/Participacion a la Conferencia de Curia.jpg" alt="" />
-        <div class="portfolio-layer">
-          <h4>Certificado de Participación a la Conferencia de Curia</h4>
-          <p>
-            Participación en la Conferencia de Curia para el desarrollo de
-            habilidades profesionales.
           </p>
           <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
         </div>
@@ -593,7 +675,7 @@
         <div class="portfolio-layer">
           <h4>Certificado de Diseño Web</h4>
           <p>
-            Diseño interfaces web intuitivas y atractivas para mejorar la
+            Diseño de interfaces web intuitivas y atractivas para mejorar la
             experiencia del usuario.
           </p>
           <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
@@ -610,11 +692,91 @@
           <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
         </div>
       </div>
-
+      <!-- Metodologías Ágiles -->
+      <div class="portfolio-box">
+        <img src="images/Certificates/Certificado SCRUM MASTER.jpg" alt="" />
+        <div class="portfolio-layer">
+          <h4>Certificado SCRUM MASTER</h4>
+          <p>
+            Formado en metodologías ágiles para liderar proyectos con
+            eficiencia.
+          </p>
+          <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="images/Certificates/ScrumFundamentalsCertified-AxelArturoCruzadoAlegre.jpg" alt="" />
+        <div class="portfolio-layer">
+          <h4>Scrum Fundamentals Certified (SFC)</h4>
+          <p>
+            Certificación internacional en fundamentos de Scrum para la gestión
+            ágil de proyectos.
+          </p>
+          <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+      <!-- Seguridad Informática -->
+      <div class="portfolio-box">
+        <img src="images/Certificates/Certificado Introduction_to_Cybersecurity.jpg" alt="" />
+        <div class="portfolio-layer">
+          <h4>Introducción a la Ciberseguridad</h4>
+          <p>
+            Aprendí conceptos fundamentales de ciberseguridad para proteger la
+            información y la red de una organización.
+          </p>
+          <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="images/Certificates/Certificado Ethical Hacker.jpg" alt="" />
+        <div class="portfolio-layer">
+          <h4>Ethical Hacking Fundamentals</h4>
+          <p>
+            Certificación en técnicas de hacking ético y seguridad
+            informática.
+          </p>
+          <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+      <!-- Analytics & Herramientas -->
+      <div class="portfolio-box">
+        <img src="images/Certificates/CONSTANCIA POWER BL.jpg" alt="" />
+        <div class="portfolio-layer">
+          <h4>Power BI</h4>
+          <p>
+            Constancia de haber participado en el curso de Power BI para el
+            análisis de datos.
+          </p>
+          <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="images/Certificates/Certificado Excel Intermedio - Campus Virtual Romero.jpg" alt="" />
+        <div class="portfolio-layer">
+          <h4>Excel Intermedio</h4>
+          <p>
+            Competente en análisis de datos y creación de reportes en Excel.
+          </p>
+          <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+      <!-- Idiomas -->
+      <div class="portfolio-box">
+        <img src="images/Certificates/Certificado de Ingles.jpg" alt="" />
+        <div class="portfolio-layer">
+          <h4>Certificado de Inglés</h4>
+          <p>
+            Constancia de haber culminado correctamente el nivel Básico con
+            312 horas por 1 año.
+          </p>
+          <a onclick="openImage(this)"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+      <!-- Experiencia Profesional -->
       <div class="portfolio-box">
         <img src="images/Certificates/CONSTANCIA_DE_PRACTICAS_INVADION-SAC.jpg" alt="" />
         <div class="portfolio-layer">
-          <h4>Constancia de Practicas Preprofesionales</h4>
+          <h4>Constancia de Prácticas Preprofesionales</h4>
           <p>
             Experiencia práctica en el desarrollo de soluciones tecnológicas
             en un entorno profesional.
@@ -634,11 +796,9 @@
         </div>
       </div>
     </div>
-    <div id="imageModal" class="modal">
-      <span class="close">&times;</span>
-      <img class="modal-content" id="modalImage" />
-    </div>
+
   </section>
+
 
   <!-- services section design -->
   <section class="services" id="services">
@@ -724,6 +884,12 @@
       <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
     </div>
   </footer>
+
+  <!-- Global Image Modal -->
+  <div id="imageModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImage" />
+  </div>
 
   <!-- scroll reveal -->
   <script src="https://unpkg.com/scrollreveal"></script>
