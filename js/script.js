@@ -78,7 +78,7 @@ sr.reveal(`.experience-container .experience-box`, { origin: 'bottom', interval:
 
 /*==================== typed js ====================*/
 const typed = new Typed('.multiple-text', {
-  strings: ['Developer', 'Designer', 'Freelancer'],
+  strings: ['System Engineer', 'Fullstack Developer', 'Software Engineer'],
   typeSpeed: 80,
   backSpeed: 60,
   backDelay: 1500,
